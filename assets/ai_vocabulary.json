@@ -1,0 +1,1337 @@
+{
+  "vocabulary": [
+    {
+      "word": "algorithm",
+      "phonetic": "/ˈælɡərɪðəm/",
+      "partOfSpeech": "noun",
+      "definition": "A step-by-step procedure or formula for solving a problem",
+      "examples": [
+        "The machine learning algorithm can predict user behavior with high accuracy.",
+        "Developers need to optimize the algorithm to improve performance."
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "word": "neural network",
+      "phonetic": "/ˈnʊrəl ˈnetwɜrk/",
+      "partOfSpeech": "noun",
+      "definition": "A computer system modeled on the human brain and nervous system",
+      "examples": [
+        "Deep neural networks have revolutionized image recognition.",
+        "The neural network learned to identify patterns in the data."
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "autonomous",
+      "phonetic": "/ɔːˈtɑːnəməs/",
+      "partOfSpeech": "adjective",
+      "definition": "Having the ability to operate independently without human input",
+      "examples": [
+        "Autonomous vehicles are becoming increasingly common on our roads.",
+        "The AI system is fully autonomous in making decisions."
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "backpropagation",
+      "phonetic": "/ˌbæk.prəʊ.pəˈɡeɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A method used in artificial neural networks to calculate the error contribution of each neuron after a batch of data, adjusting weights to minimize the error.",
+        "zh": "一种在人工神经网络中用来计算每个神经元对批量数据误差贡献的方法，通过调整权重来最小化误差。"
+      },
+      "examples": [
+        {
+          "en": "Backpropagation is essential for training deep learning models effectively.",
+          "zh": "反向传播是有效训练深度学习模型的关键。"
+        },
+        {
+          "en": "The efficiency of backpropagation depends on the learning rate and the architecture of the network.",
+          "zh": "反向传播的效率取决于学习率和网络的架构。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "feature extraction",
+      "phonetic": "/ˈfiːtʃər ɪkˈstrækʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "The process of reducing the number of features in a dataset by creating new features that encapsulate the most useful information from the original set.",
+        "zh": "通过创建新的特征来减少数据集中特征数量的过程，这些新特征封装了原始数据集中的最有用信息。"
+      },
+      "examples": [
+        {
+          "en": "Feature extraction techniques like PCA are often used to simplify data for machine learning models.",
+          "zh": "PCA等特征提取技术常用于简化机器学习模型的数据。"
+        },
+        {
+          "en": "Effective feature extraction can significantly improve the performance of pattern recognition tasks.",
+          "zh": "有效的特征提取可以显著提高模式识别的性能。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "hyperparameter",
+      "phonetic": "/ˌhaɪ.pərˈpæ.rə.miː.tər/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "Parameters whose values are set before the learning process begins, as opposed to model parameters which are learned during training.",
+        "zh": "在学习过程开始前设定其值的参数，与在训练过程中学习的模型参数相对。"
+      },
+      "examples": [
+        {
+          "en": "Choosing the right hyperparameters can drastically affect the performance of a model.",
+          "zh": "选择合适的超参数可以显著影响模型的性能。"
+        },
+        {
+          "en": "The learning rate is one of the most critical hyperparameters in gradient descent.",
+          "zh": "学习率是梯度下降中最关键的超参数之一。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "overfitting",
+      "phonetic": "/ˈəʊ.vəˌfɪ.tɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A modeling error which occurs when a function is too closely fit to a limited set of data points, leading to poor generalization to new data.",
+        "zh": "当一个模型过于贴合训练数据而导致对新数据的泛化能力差时发生的建模错误。"
+      },
+      "examples": [
+        {
+          "en": "To prevent overfitting, we often use techniques like regularization or cross-validation.",
+          "zh": "为了防止过拟合，我们通常使用正则化或交叉验证等技术。"
+        },
+        {
+          "en": "The model showed signs of overfitting as it performed well on training data but poorly on the test set.",
+          "zh": "该模型在训练数据上表现良好，但在测试集上表现差，显示出了过拟合的迹象。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "dimensionality reduction",
+      "phonetic": "/ˌdɪ.men.ʃəˈnæl.ɪ.ti rɪˈdʌkʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "The process of reducing the number of random variables under consideration, by obtaining a set of principal variables.",
+        "zh": "通过获取一组主要变量来减少考虑的随机变量数量的过程。"
+      },
+      "examples": [
+        {
+          "en": "Dimensionality reduction helps in visualizing high-dimensional data by projecting it onto a lower-dimensional space.",
+          "zh": "降维有助于通过将高维数据投影到低维空间来可视化数据。"
+        },
+        {
+          "en": "Principal Component Analysis (PCA) is a common technique for dimensionality reduction.",
+          "zh": "主成分分析（PCA）是降维的常用技术。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "ensemble learning",
+      "phonetic": "/ɑnˈsɛm.bəl ˈlɜr.nɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A machine learning technique that combines predictions from multiple models to improve accuracy and robustness over any single model.",
+        "zh": "一种机器学习技术，通过组合多个模型的预测来提高准确性和鲁棒性，超越单一模型。"
+      },
+      "examples": [
+        {
+          "en": "Ensemble learning methods like Random Forests or Gradient Boosting Machines often perform better than individual decision trees.",
+          "zh": "集成学习方法，如随机森林或梯度提升机，通常比单个决策树表现得更好。"
+        },
+        {
+          "en": "Using ensemble learning, we can reduce the variance in predictions and achieve better generalization.",
+          "zh": "通过使用集成学习，我们可以减少预测的方差并实现更好的泛化能力。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "reinforcement learning",
+      "phonetic": "/ˌriːɪnˈfɔːsmənt ˈlɜr.nɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A type of machine learning where an agent learns to make decisions by taking actions in an environment to maximize a reward.",
+        "zh": "一种机器学习类型，智能体通过在环境中采取行动来学习决策，以最大化奖励。"
+      },
+      "examples": [
+        {
+          "en": "In reinforcement learning, an agent could learn to play a game of chess by receiving rewards for winning moves.",
+          "zh": "在强化学习中，智能体可以通过赢棋获得奖励来学习下棋。"
+        },
+        {
+          "en": "Reinforcement learning algorithms like Q-learning are used to train robots to navigate through unknown environments.",
+          "zh": "像Q学习这样的强化学习算法被用来训练机器人在未知环境中导航。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "transfer learning",
+      "phonetic": "/ˈtrænsfɜr ˈlɜr.nɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A machine learning technique where a model developed for one task is reused as the starting point for a model on a second, related task.",
+        "zh": "一种机器学习技术，将为一个任务开发的模型重新用作另一个相关任务的模型的起点。"
+      },
+      "examples": [
+        {
+          "en": "Transfer learning can significantly reduce the training time and data requirements for new tasks in computer vision.",
+          "zh": "在计算机视觉中，迁移学习可以显著减少新任务的训练时间和数据需求。"
+        },
+        {
+          "en": "By using transfer learning, we can leverage pre-trained models like VGG16 for image classification tasks.",
+          "zh": "通过使用迁移学习，我们可以利用预训练模型如VGG16进行图像分类任务。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "feature selection",
+      "phonetic": "/ˈfiːtʃər sɪˈlɛkʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "The process of selecting a subset of relevant features (variables, predictors) for use in model construction.",
+        "zh": "选择相关特征子集用于模型构建的过程。"
+      },
+      "examples": [
+        {
+          "en": "Feature selection can help in reducing overfitting by eliminating irrelevant or redundant features.",
+          "zh": "特征选择可以通过消除不相关或冗余的特征来帮助减少过拟合。"
+        },
+        {
+          "en": "In genomic studies, feature selection is crucial to identify which genes are most predictive of certain outcomes.",
+          "zh": "在基因组学研究中，特征选择对于确定哪些基因对特定结果最具预测性至关重要。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "decision boundary",
+      "phonetic": "/dɪˈsɪʒən ˈbaʊndəri/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A surface that separates different classes or categories in a feature space, used by classification algorithms to make predictions.",
+        "zh": "在特征空间中分隔不同类别或类别的表面，分类算法用其进行预测。"
+      },
+      "examples": [
+        {
+          "en": "In a logistic regression model, the decision boundary is a hyperplane that separates classes.",
+          "zh": "在逻辑回归模型中，决策边界是一个分隔类的超平面。"
+        },
+        {
+          "en": "Visualizing the decision boundary helps in understanding how a classifier makes its decisions.",
+          "zh": "可视化决策边界有助于理解分类器如何做出决策。"
+        }
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "word": "autoencoder",
+      "phonetic": "/ˈɔː.təʊˌɛn.kəʊ.dər/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A type of neural network that learns how to efficiently compress and encode data, then decode to reproduce the original input as closely as possible.",
+        "zh": "一种神经网络，它学会高效地压缩和编码数据，然后解码以尽可能接近地再现原始输入。"
+      },
+      "examples": [
+        {
+          "en": "An autoencoder was used to reduce the dimensionality of the image data for easier processing.",
+          "zh": "使用自编码器来降低图像数据的维度以便于处理。"
+        },
+        {
+          "en": "In anomaly detection, autoencoders can be trained to recognize normal patterns.",
+          "zh": "在异常检测中，可以训练自编码器来识别正常模式。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "clustering",
+      "phonetic": "/ˈklʌstərɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "The process of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar to each other than to those in other groups.",
+        "zh": "将一组对象分组的方式进行分组，使同一组（称为簇）中的对象彼此之间比与其他组中的对象更相似。"
+      },
+      "examples": [
+        {
+          "en": "Clustering was applied to segment customer data for targeted marketing campaigns.",
+          "zh": "聚类被用于分割客户数据以进行针对性的营销活动。"
+        },
+        {
+          "en": "K-means clustering algorithm is widely used for its simplicity and efficiency.",
+          "zh": "K-means聚类算法因其简单性和效率而被广泛使用。"
+        }
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "word": "gradient descent",
+      "phonetic": "/ˈɡreɪ.di.ənt dɪˈsent/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "An optimization algorithm for finding the minimum of a function by iteratively moving in the direction of the steepest descent as defined by the negative of the gradient.",
+        "zh": "通过迭代地沿着负梯度方向移动来寻找函数最小值的优化算法。"
+      },
+      "examples": [
+        {
+          "en": "Gradient descent is used to minimize the loss function during neural network training.",
+          "zh": "梯度下降被用来在神经网络训练期间最小化损失函数。"
+        },
+        {
+          "en": "Stochastic gradient descent can speed up the learning process by using a single training example at a time.",
+          "zh": "随机梯度下降通过一次使用一个训练示例来加速学习过程。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "latent space",
+      "phonetic": "/ˈleɪ.tənt speɪs/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "In machine learning, particularly in models like variational autoencoders, a lower-dimensional representation of data where each point represents a compressed version of the original data.",
+        "zh": "在机器学习中，特别是在变分自编码器这样的模型中，数据的低维表示，每个点代表原始数据的压缩版本。"
+      },
+      "examples": [
+        {
+          "en": "The latent space in this model captures the essential features of the faces.",
+          "zh": "这个模型中的潜在空间捕捉了面孔的基本特征。"
+        },
+        {
+          "en": "By exploring the latent space, we can generate new data points with specific characteristics.",
+          "zh": "通过探索潜在空间，我们可以生成具有特定特征的新数据点。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "kernel trick",
+      "phonetic": "/ˈkɜːnəl trɪk/",
+      "partOfSpeech": "noun phrase",
+      "definition": {
+        "en": "A method used in machine learning to operate in a high-dimensional, implicit feature space without computing the coordinates of the data in that space.",
+        "zh": "在机器学习中用于在高维隐式特征空间中操作，而无需计算该空间中数据的坐标的方法。"
+      },
+      "examples": [
+        {
+          "en": "The kernel trick allows SVMs to perform non-linear classification.",
+          "zh": "核技巧允许支持向量机进行非线性分类。"
+        },
+        {
+          "en": "Without the kernel trick, many algorithms would be limited to linear problems.",
+          "zh": "如果没有核技巧，许多算法将只能处理线性问题。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "loss function",
+      "phonetic": "/ˈlɒs ˈfʌŋkʃən/",
+      "partOfSpeech": "noun phrase",
+      "definition": {
+        "en": "A function that maps an event or values of one or more variables onto a real number representing some 'cost' associated with the event.",
+        "zh": "一个函数，将一个事件或一个或多个变量的值映射到一个表示与该事件相关联的某种“成本”的实数上。"
+      },
+      "examples": [
+        {
+          "en": "The choice of loss function can greatly impact model performance.",
+          "zh": "损失函数的选择会极大地影响模型的性能。"
+        },
+        {
+          "en": "Mean Squared Error is a common loss function for regression tasks.",
+          "zh": "均方误差是回归任务中常用的损失函数。"
+        }
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "word": "epoch",
+      "phonetic": "/ˈiːpɒk/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "One complete pass through the entire training dataset in machine learning.",
+        "zh": "在机器学习中，完整地通过整个训练数据集一次。"
+      },
+      "examples": [
+        {
+          "en": "The model was trained for 50 epochs.",
+          "zh": "模型被训练了50个周期。"
+        },
+        {
+          "en": "Adjusting the number of epochs can help in avoiding overfitting.",
+          "zh": "调整周期数可以帮助避免过拟合。"
+        }
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "word": "Gradient Boosting",
+      "phonetic": "/ˈɡreɪdiənt ˈbuːstɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A machine learning technique for regression and classification problems, which builds an ensemble model in a stage-wise fashion where each new model tries to correct errors of the previous models.",
+        "zh": "一种用于回归和分类问题的机器学习技术，它通过逐步构建一个集成模型，每个新模型尝试纠正前一个模型的错误。"
+      },
+      "examples": [
+        {
+          "en": "Gradient Boosting Machines often outperform other algorithms in structured data competitions.",
+          "zh": "梯度提升机在结构化数据竞赛中通常表现优于其他算法。"
+        },
+        {
+          "en": "XGBoost is an implementation of gradient boosting with additional features like regularization.",
+          "zh": "XGBoost 是梯度提升的一种实现，增加了正则化等特性。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "Natural Language Processing",
+      "phonetic": "/ˈnætʃərəl ˈlæŋɡwɪdʒ prəˈsɛsɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data.",
+        "zh": "语言学、计算机科学和人工智能的一个分支，关注计算机与人类语言之间的交互，特别是如何编程让计算机处理和分析大量的自然语言数据。"
+      },
+      "examples": [
+        {
+          "en": "Natural Language Processing techniques are used for machine translation, sentiment analysis, and speech recognition.",
+          "zh": "自然语言处理技术被用于机器翻译、情感分析和语音识别。"
+        },
+        {
+          "en": "NLP models can now understand and generate human-like text with high accuracy.",
+          "zh": "NLP模型现在能够以高准确性理解并生成类似人类的文本。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "convolution",
+      "phonetic": "/ˌkɒn.vəˈluː.ʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A mathematical operation used in image processing and neural networks to combine two functions by sliding one over the other.",
+        "zh": "在图像处理和神经网络中，通过一个函数在另一个函数上滑动来结合两个函数的数学运算。"
+      },
+      "examples": [
+        {
+          "en": "Convolutional layers use convolution to detect features in images.",
+          "zh": "卷积层使用卷积来检测图像中的特征。"
+        },
+        {
+          "en": "The convolution operation reduces the image size while retaining important features.",
+          "zh": "卷积运算在保持重要特征的同时缩小图像尺寸。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "feature engineering",
+      "phonetic": "/ˈfiː.tʃər ˌen.dʒɪˈnɪə.rɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "The process of using domain knowledge to create features that make machine learning algorithms work more effectively.",
+        "zh": "利用领域知识来创建特征，使得机器学习算法更有效运行的过程。"
+      },
+      "examples": [
+        {
+          "en": "Feature engineering often involves transforming raw data into meaningful features.",
+          "zh": "特征工程通常涉及将原始数据转换为有意义的特征。"
+        },
+        {
+          "en": "Effective feature engineering can significantly improve model performance.",
+          "zh": "有效的特征工程可以显著提升模型性能。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "regularization",
+      "phonetic": "/ˌrɛɡjələraɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A technique to prevent overfitting by adding a penalty on the size of the model parameters during training.",
+        "zh": "通过在训练过程中对模型参数的大小增加惩罚以防止过拟合的技术。"
+      },
+      "examples": [
+        {
+          "en": "Lasso regularization can lead to sparse models where some coefficients become zero.",
+          "zh": "Lasso 正则化可以导致稀疏模型，其中一些系数会变为零。"
+        },
+        {
+          "en": "Regularization helps in generalizing the model to new, unseen data.",
+          "zh": "正则化有助于模型对新数据进行泛化。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "stochastic gradient descent",
+      "phonetic": "/stəˈkæstɪk ˈɡreɪdiənt dɪˈsɛnt/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "An iterative method for optimizing an objective function with suitable smoothness properties, where the parameters are updated based on a random subset of training data.",
+        "zh": "一种用于优化具有适当平滑属性的目标函数的迭代方法，其参数基于训练数据的随机子集进行更新。"
+      },
+      "examples": [
+        {
+          "en": "Stochastic gradient descent often converges faster than batch gradient descent for large datasets.",
+          "zh": "对于大数据集，随机梯度下降通常比批量梯度下降收敛更快。"
+        },
+        {
+          "en": "Mini-batch SGD is a variant where the updates are done on small, randomly selected batches.",
+          "zh": "Mini-batch SGD 是一种变体，在小型、随机选择的批次上进行更新。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "activation function",
+      "phonetic": "/ækˌtɪˈveɪʃən ˈfʌŋkʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A function that introduces nonlinearity into the output of a neuron, allowing the neural network to learn complex patterns.",
+        "zh": "引入非线性到神经元输出中的函数，使神经网络能够学习复杂模式。"
+      },
+      "examples": [
+        {
+          "en": "Common activation functions include ReLU, sigmoid, and tanh.",
+          "zh": "常见的激活函数包括ReLU、S形函数和双曲正切函数。"
+        },
+        {
+          "en": "The choice of activation function can significantly affect model performance.",
+          "zh": "选择激活函数会显著影响模型性能。"
+        }
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "word": "decision tree",
+      "phonetic": "/dɪˈsɪʒən triː/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A decision support tool that uses a tree-like graph or model of decisions and their possible consequences, including chance event outcomes, cost, and utility.",
+        "zh": "一种决策支持工具，使用树状图或模型来表示决策及其可能的结果，包括机会事件的结果、成本和效用。"
+      },
+      "examples": [
+        {
+          "en": "A decision tree can be used to predict customer behavior based on historical data.",
+          "zh": "决策树可以用来根据历史数据预测客户行为。"
+        },
+        {
+          "en": "In machine learning, decision trees are often used for classification tasks.",
+          "zh": "在机器学习中，决策树常用于分类任务。"
+        }
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "word": "dropout",
+      "phonetic": "/ˈdrɒp.aʊt/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A regularization technique for reducing overfitting in neural networks by preventing complex co-adaptations on training data.",
+        "zh": "一种在神经网络中减少过拟合的正则化技术，通过防止训练数据上的复杂共适应。"
+      },
+      "examples": [
+        {
+          "en": "Using dropout, we can prevent the network from becoming too dependent on any single node.",
+          "zh": "使用dropout，我们可以防止网络过度依赖任何单一节点。"
+        },
+        {
+          "en": "Dropout randomly deactivates neurons during training to improve generalization.",
+          "zh": "Dropout在训练期间随机停用神经元以提高泛化能力。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "feature scaling",
+      "phonetic": "/ˈfiːtʃə ˌskeɪlɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "The process of normalizing the range of independent variables or features of data, to ensure they contribute equally to the distance calculations in algorithms.",
+        "zh": "对数据的独立变量或特征进行归一化处理的过程，以确保它们在算法中的距离计算中平等地贡献。"
+      },
+      "examples": [
+        {
+          "en": "Feature scaling is often necessary for algorithms like k-means clustering or gradient descent.",
+          "zh": "特征缩放通常是必要的，例如在k-means聚类或梯度下降算法中。"
+        },
+        {
+          "en": "Without feature scaling, variables with larger ranges can dominate the model's outcome.",
+          "zh": "没有特征缩放，范围更大的变量可能会主导模型的结果。"
+        }
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "word": "softmax",
+      "phonetic": "/ˈsɒft.mæks/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A function that takes as input a vector of K real numbers, and normalizes it into a probability distribution consisting of K probabilities proportional to the exponentials of the input numbers.",
+        "zh": "一个函数，它将输入的K个实数向量标准化为一个由K个概率组成的概率分布，这些概率与输入数的指数成比例。"
+      },
+      "examples": [
+        {
+          "en": "The softmax function is often used in the output layer of neural networks for multi-class classification.",
+          "zh": "Softmax函数常用于神经网络的输出层进行多类别分类。"
+        },
+        {
+          "en": "Applying softmax to logits produces a probability distribution over all classes.",
+          "zh": "对logits应用softmax函数会生成一个覆盖所有类别的概率分布。"
+        }
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "word": "Lasso regularization",
+      "phonetic": "/ˈlæs.oʊ ˌrɛɡ.jʊ.lər.aɪˈzeɪ.ʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A regularization technique that introduces a penalty term to the loss function to encourage sparsity by driving some model coefficients to zero.",
+        "zh": "一种正则化技术，通过在损失函数中引入惩罚项来鼓励稀疏性，使一些模型系数变为零。"
+      },
+      "examples": [
+        {
+          "en": "Lasso regularization can be used to reduce the complexity of a model by eliminating less important features.",
+          "zh": "Lasso正则化可以用来通过消除不太重要的特征来降低模型的复杂度。"
+        },
+        {
+          "en": "When selecting features, Lasso can automatically perform feature selection by shrinking some coefficients to zero.",
+          "zh": "在选择特征时，Lasso可以通过将一些系数收缩到零来自动执行特征选择。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "Batch Normalization",
+      "phonetic": "/ˈbætʃ ˌnɔːməlaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A technique used to normalize the inputs of each layer in a neural network to reduce internal covariate shift.",
+        "zh": "一种用于标准化神经网络每一层输入的技术，以减少内部协变量移位。"
+      },
+      "examples": [
+        {
+          "en": "Batch normalization often leads to faster training and can allow higher learning rates.",
+          "zh": "批量归一化通常能加速训练，并允许使用更高的学习率。"
+        },
+        {
+          "en": "By applying batch normalization, the model became less sensitive to the initial parameter settings.",
+          "zh": "通过应用批量归一化，模型对初始参数设置的敏感度降低了。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "recurrent neural network",
+      "phonetic": "/rɪˌkʌr.ənt ˈnjuː.rəl ˈnet.wɜːk/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A class of artificial neural networks where connections between nodes form a directed graph along a sequence, allowing it to use internal state (memory) to process sequences of inputs.",
+        "zh": "一类人工神经网络，其节点之间的连接形成一个沿着序列的有向图，使其能够使用内部状态（记忆）来处理输入序列。"
+      },
+      "examples": [
+        {
+          "en": "Recurrent neural networks are well-suited for tasks like language modeling.",
+          "zh": "循环神经网络非常适合语言建模等任务。"
+        },
+        {
+          "en": "LSTMs are a type of recurrent neural network designed to overcome the vanishing gradient problem.",
+          "zh": "长短期记忆网络（LSTM）是一种设计用于克服梯度消失问题的循环神经网络。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "explainable AI",
+      "phonetic": "/ɪkˌspleɪ.nə.bəl ˌeɪ ˈaɪ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A set of processes and methods in artificial intelligence that allows human users to understand and trust the results and output created by machine learning algorithms.",
+        "zh": "人工智能中一系列使人类用户能够理解并信任由机器学习算法产生的决策结果和输出的过程和方法。"
+      },
+      "examples": [
+        {
+          "en": "Explainable AI is crucial for applications in healthcare where decisions need to be transparent.",
+          "zh": "在医疗保健领域需要决策透明的情况下，可解释人工智能至关重要。"
+        },
+        {
+          "en": "The use of explainable AI can help in complying with regulations that require transparency in AI decision-making.",
+          "zh": "使用可解释人工智能可以帮助遵守要求AI决策透明的法规。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "Hyperparameter Tuning",
+      "phonetic": "/ˌhaɪpərˈpærəmɪtər ˈtjuːnɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "The process of choosing a set of optimal hyperparameters for a learning algorithm.",
+        "zh": "为学习算法选择一组最优超参数的过程。"
+      },
+      "examples": [
+        {
+          "en": "Hyperparameter tuning can significantly improve the performance of machine learning models.",
+          "zh": "超参数调优可以显著提高机器学习模型的性能。"
+        },
+        {
+          "en": "Grid search is a common method used for hyperparameter tuning in neural networks.",
+          "zh": "网格搜索是神经网络中常用的超参数调优方法。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "Attention Mechanism",
+      "phonetic": "/əˈtɛnʃən ˈmɛkəˌnɪzəm/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A component of neural networks that allows the model to focus on different parts of the input sequence when making predictions.",
+        "zh": "神经网络的一部分，使模型在做出预测时能够关注输入序列的不同部分。"
+      },
+      "examples": [
+        {
+          "en": "Attention mechanisms are key to the performance of transformers in natural language processing tasks.",
+          "zh": "注意力机制是自然语言处理任务中变换器性能的关键。"
+        },
+        {
+          "en": "The attention mechanism helps in understanding context better by weighting different words or tokens.",
+          "zh": "注意力机制通过加权不同的词或标记来更好地理解上下文。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "Data Augmentation",
+      "phonetic": "/ˈdeɪtə ɔːɡˌmɛnˈteɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "Techniques used to increase the amount of data by adding slightly modified copies or synthetically generated data from existing data.",
+        "zh": "通过添加稍微修改的副本或从现有数据合成生成数据来增加数据量的技术。"
+      },
+      "examples": [
+        {
+          "en": "Data augmentation is often used in image recognition to artificially expand the dataset.",
+          "zh": "数据增强常用于图像识别中以人为地扩展数据集。"
+        },
+        {
+          "en": "For speech recognition, data augmentation might include adding background noise to existing audio samples.",
+          "zh": "对于语音识别，数据增强可能包括在现有音频样本中加入背景噪音。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "cross-validation",
+      "phonetic": "/krɒs vəˈlɪdəʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A statistical method used to assess how the results of a statistical analysis will generalize to an independent dataset.",
+        "zh": "一种统计方法，用于评估统计分析结果在独立数据集上的泛化能力。"
+      },
+      "examples": [
+        {
+          "en": "Cross-validation helps in estimating how accurately a predictive model will perform in practice.",
+          "zh": "交叉验证有助于估计预测模型在实际中的表现准确性。"
+        },
+        {
+          "en": "K-fold cross-validation is commonly used to tune hyperparameters.",
+          "zh": "K折交叉验证通常用于调节超参数。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "generative adversarial network",
+      "phonetic": "/ˈdʒɛnərətɪv ˌædvəˈsɛərɪəl ˈnɛtwɜːrk/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A class of machine learning frameworks designed by pitting two neural networks against each other in a zero-sum game, where one generates candidates and the other evaluates them.",
+        "zh": "一种机器学习框架，通过让两个神经网络在零和游戏中相互对抗来设计，其中一个生成候选，而另一个对其进行评估。"
+      },
+      "examples": [
+        {
+          "en": "GANs are used to generate new, synthetic instances of data that can pass for real data.",
+          "zh": "生成对抗网络用于生成新的、合成的数据实例，这些数据可以冒充真实数据。"
+        },
+        {
+          "en": "In image generation, GANs can create realistic images from noise vectors.",
+          "zh": "在图像生成中，生成对抗网络可以从噪声向量中创造出逼真的图像。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "k-nearest neighbors",
+      "phonetic": "/keɪ ˈnɪərɪst ˈneɪbərz/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A non-parametric method used for classification and regression, which operates on the principle that similar things exist in close proximity.",
+        "zh": "一种用于分类和回归的非参数方法，其工作原理是相似的物体在空间上是接近的。"
+      },
+      "examples": [
+        {
+          "en": "The k-nearest neighbors algorithm was used to classify new data points.",
+          "zh": "k最近邻算法被用来对新数据点进行分类。"
+        },
+        {
+          "en": "Choosing the right k in k-nearest neighbors can significantly affect the model's performance.",
+          "zh": "选择合适的k值在k最近邻算法中会显著影响模型的表现。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "normalization",
+      "phonetic": "/ˌnɔːr.məl.aɪˈzeɪ.ʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "The process of scaling data so that different features contribute equally to the distance computations in machine learning algorithms.",
+        "zh": "对数据进行缩放，使得机器学习算法中的不同特征对距离计算的贡献相等的过程。"
+      },
+      "examples": [
+        {
+          "en": "Normalization was crucial for our dataset with features on different scales.",
+          "zh": "对于不同尺度特征的数据集，标准化是至关重要的。"
+        },
+        {
+          "en": "Before feeding the data into the neural network, we performed normalization.",
+          "zh": "在将数据输入神经网络之前，我们进行了标准化处理。"
+        }
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "word": "principal component analysis",
+      "phonetic": "/ˈprɪn.sɪ.pəl ˈkəm.pə.nənt əˌnæl.ə.sɪs/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components.",
+        "zh": "一种统计方法，使用正交变换将可能相关的变量观察值转换为一组线性不相关的变量值，称为主成分。"
+      },
+      "examples": [
+        {
+          "en": "Principal Component Analysis was used to reduce the dimensionality of our dataset.",
+          "zh": "我们使用主成分分析来降低数据集的维度。"
+        },
+        {
+          "en": "PCA helps in visualizing high-dimensional data in two or three dimensions.",
+          "zh": "PCA有助于将高维数据可视化为二维或三维。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "support vector machine",
+      "phonetic": "/səˈpɔːt ˌvɛktər məˈʃiːn/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A supervised learning model with associated learning algorithms that analyze data for classification and regression analysis, used for finding a hyperplane that best divides a dataset into classes.",
+        "zh": "一种监督学习模型，具有相关的学习算法，用于分析数据以进行分类和回归分析，用于寻找最能将数据集分类的超平面。"
+      },
+      "examples": [
+        {
+          "en": "Support Vector Machines are effective in high dimensional spaces.",
+          "zh": "支持向量机在高维空间中非常有效。"
+        },
+        {
+          "en": "SVMs can handle both linear and non-linear classification through kernel functions.",
+          "zh": "通过核函数，支持向量机可以处理线性和非线性分类。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "hyperplane",
+      "phonetic": "/ˈhaɪ.pərˌpleɪn/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "In higher dimensions, a flat affine subspace of one dimension less than that of the ambient space.",
+        "zh": "在高维空间中，一个维度比环境空间低一维的平坦仿射子空间。"
+      },
+      "examples": [
+        {
+          "en": "Support Vector Machines find the optimal hyperplane to separate the classes.",
+          "zh": "支持向量机寻找最优超平面来分离类别。"
+        },
+        {
+          "en": "The concept of a hyperplane is fundamental in understanding how SVMs work.",
+          "zh": "理解超平面的概念对于理解支持向量机的工作原理是基础的。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "one-shot learning",
+      "phonetic": "/wʌn ʃɒt ˈlɜːnɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A machine learning approach where the model learns from very few examples or even a single example.",
+        "zh": "一种机器学习方法，模型从极少的例子甚至单个例子中学习。"
+      },
+      "examples": [
+        {
+          "en": "One-shot learning is crucial for applications like facial recognition where collecting many samples is impractical.",
+          "zh": "对于收集大量样本不切实际的面部识别应用来说，一次性学习至关重要。"
+        },
+        {
+          "en": "The model achieved high accuracy with one-shot learning techniques.",
+          "zh": "该模型通过一次性学习技术达到了高准确率。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "perceptron",
+      "phonetic": "/pəˈsɛp.trən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "An algorithm for binary classifiers which makes its predictions based on a linear predictor function combining a set of weights with the feature vector.",
+        "zh": "一种基于线性预测器函数的二元分类器算法，该函数将一组权重与特征向量结合起来进行预测。"
+      },
+      "examples": [
+        {
+          "en": "The perceptron can learn and make decisions in binary classification tasks.",
+          "zh": "感知器可以学习并在二分类任务中做出决策。"
+        },
+        {
+          "en": "Perceptrons are fundamental to the development of neural networks.",
+          "zh": "感知器是神经网络发展的基础。"
+        }
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "word": "tensor",
+      "phonetic": "/ˈtɛnsər/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A mathematical object used in machine learning to represent data that can be transformed under certain rules.",
+        "zh": "在机器学习中用于表示可在特定规则下变换的数据的数学对象。"
+      },
+      "examples": [
+        {
+          "en": "A 3D image can be represented as a third-order tensor.",
+          "zh": "3D图像可以表示为三阶张量。"
+        },
+        {
+          "en": "In TensorFlow, tensors flow through the computational graph.",
+          "zh": "在TensorFlow中，张量通过计算图流动。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "ensemble method",
+      "phonetic": "/ɑːnˈsɛmbl ˈmɛθəd/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "Techniques that combine the predictions from multiple machine learning models to improve the accuracy and robustness of predictions.",
+        "zh": "将多个机器学习模型的预测结果结合起来，以提高预测的准确性和鲁棒性的技术。"
+      },
+      "examples": [
+        {
+          "en": "Ensemble methods like Random Forests often outperform single decision trees.",
+          "zh": "随机森林等集成方法通常比单一决策树表现更好。"
+        },
+        {
+          "en": "An ensemble of weak learners can be combined to create a strong learner in boosting algorithms.",
+          "zh": "在提升算法中，可以将多个弱学习器结合起来创建一个强学习器。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "embedding",
+      "phonetic": "/ɪmˈbedɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A mapping of discrete categorical variables to vectors of continuous numbers, often used in natural language processing.",
+        "zh": "将离散的分类变量映射到连续数字向量，常用于自然语言处理。"
+      },
+      "examples": [
+        {
+          "en": "Word embeddings like Word2Vec provide a dense representation of words.",
+          "zh": "像Word2Vec这样的词嵌入提供了词的密集表示。"
+        },
+        {
+          "en": "Embeddings help capture the semantic relationships between words.",
+          "zh": "嵌入有助于捕捉词之间的语义关系。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "k-means clustering",
+      "phonetic": "/ˌkeɪ miːnz ˈklʌstərɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean.",
+        "zh": "一种向量量化的方法，最初来自信号处理，旨在将n个观测值分成k个簇，每个观测值属于最近均值的簇。"
+      },
+      "examples": [
+        {
+          "en": "K-means clustering is often used for market segmentation by grouping similar customers.",
+          "zh": "K均值聚类常用于通过分组相似客户进行市场细分。"
+        },
+        {
+          "en": "The algorithm iteratively assigns each data point to one of the k clusters based on features like distance to centroids.",
+          "zh": "该算法根据特征（如到质心的距离）迭代地将每个数据点分配到k个簇中的一个。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "Bayesian optimization",
+      "phonetic": "/ˈbeɪzɪən ˌɒptɪmɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A probabilistic model-based optimization algorithm for global optimization of black-box functions.",
+        "zh": "一种基于概率模型的优化算法，用于黑盒函数的全局优化。"
+      },
+      "examples": [
+        {
+          "en": "Bayesian optimization is particularly useful for optimizing expensive-to-evaluate functions.",
+          "zh": "贝叶斯优化特别适用于优化评估成本高的函数。"
+        },
+        {
+          "en": "In hyperparameter tuning, Bayesian optimization can find better configurations with fewer iterations than random search.",
+          "zh": "在超参数调优中，贝叶斯优化可以在比随机搜索更少的迭代中找到更好的配置。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "temporal difference learning",
+      "phonetic": "/ˈtɛmpərəl ˈdɪfərəns ˈlɜːnɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A class of model-free reinforcement learning methods where the agent learns from the difference between predicted and actual rewards over time.",
+        "zh": "一种无模型的强化学习方法，其中代理通过随时间的预测奖励与实际奖励之间的差异来学习。"
+      },
+      "examples": [
+        {
+          "en": "Temporal difference learning is often used in game AI for strategy optimization.",
+          "zh": "时间差分学习常用于游戏AI中的策略优化。"
+        },
+        {
+          "en": "TD learning updates the value function based on the difference between the current estimate and the next estimate.",
+          "zh": "TD学习根据当前估计与下一个估计之间的差异更新价值函数。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "latent variable",
+      "phonetic": "/ˈleɪtənt ˈværiəb(ə)l/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A variable that is not directly observed but inferred through a mathematical model from other observed variables.",
+        "zh": "通过其他可观测变量的数学模型推断出来的未直接观察到的变量。"
+      },
+      "examples": [
+        {
+          "en": "In topic modeling, latent variables represent the underlying themes in the text.",
+          "zh": "在主题建模中，潜在变量代表文本中的潜在主题。"
+        },
+        {
+          "en": "Latent variables are often used in probabilistic models to capture hidden structures.",
+          "zh": "潜在变量通常用于概率模型中以捕捉隐藏结构。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "one-hot encoding",
+      "phonetic": "/wʌn hɒt ɪnˈkəʊdɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A representation method used to convert categorical variables into a form that could be provided to machine learning algorithms to do a better job in prediction.",
+        "zh": "一种表示方法，用于将分类变量转换为机器学习算法能够更好地进行预测的形式。"
+      },
+      "examples": [
+        {
+          "en": "One-hot encoding was used to handle the categorical data in our dataset.",
+          "zh": "我们在数据集中使用了one-hot编码来处理分类数据。"
+        },
+        {
+          "en": "The color variable was one-hot encoded into three binary variables for the model.",
+          "zh": "颜色变量被转换为三个二进制变量以供模型使用。"
+        }
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "word": "semantic segmentation",
+      "phonetic": "/sɪˈmæntɪk sɛɡmɛnˈteɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A type of image segmentation where each pixel in an image is assigned to a class label, providing a detailed map of objects within the image.",
+        "zh": "一种图像分割类型，其中图像中的每个像素都被分配到一个类标签，提供图像内对象的详细地图。"
+      },
+      "examples": [
+        {
+          "en": "Semantic segmentation is crucial for tasks like autonomous driving for identifying lanes, pedestrians, and other vehicles.",
+          "zh": "语义分割对于自动驾驶等任务至关重要，用于识别车道、行人和其他车辆。"
+        },
+        {
+          "en": "In medical imaging, semantic segmentation can help in identifying different types of tissue or anomalies.",
+          "zh": "在医学成像中，语义分割可以帮助识别不同类型的组织或异常。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "adversarial example",
+      "phonetic": "/ˌæd.vərˈsɛr.i.əl ɪɡˈzæm.pəl/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "Inputs to machine learning models that have been specifically crafted to cause the model to make a mistake, typically by making small, often imperceptible, alterations to the original input.",
+        "zh": "专门设计的输入数据，使得机器学习模型出错，通常通过对原始输入进行小而往往难以察觉的更改。"
+      },
+      "examples": [
+        {
+          "en": "Adversarial examples have shown vulnerabilities in deep learning systems.",
+          "zh": "对抗性样本已经展示了深度学习系统的脆弱性。"
+        },
+        {
+          "en": "Researchers are working on methods to make models more robust to adversarial examples.",
+          "zh": "研究人员正在研究方法使模型对抗性样本更具鲁棒性。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "adversarial attack",
+      "phonetic": "/ədˈvɜːsərɪəl əˈtæk/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A technique used in machine learning where an attacker manipulates inputs to deceive or mislead a model.",
+        "zh": "在机器学习中，攻击者操纵输入以欺骗或误导模型的技术。"
+      },
+      "examples": [
+        {
+          "en": "Adversarial attacks are a major concern for AI systems in security-critical applications.",
+          "zh": "在安全关键的应用中，对抗性攻击是AI系统的一大担忧。"
+        },
+        {
+          "en": "Researchers are developing methods to make models robust against adversarial attacks.",
+          "zh": "研究人员正在开发使模型对抗对抗性攻击的方法。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "Model Compression",
+      "phonetic": "/ˈmɒdəl kəmˈprɛʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "Techniques used to reduce the computational complexity and storage requirements of machine learning models without significantly degrading performance.",
+        "zh": "用于减少机器学习模型的计算复杂性和存储需求的技术，同时不显著降低性能。"
+      },
+      "examples": [
+        {
+          "en": "Model compression can make deep learning models more suitable for deployment on resource-constrained devices like mobile phones.",
+          "zh": "模型压缩可以使深度学习模型更适合部署在资源受限的设备上，如手机。"
+        },
+        {
+          "en": "Pruning, quantization, and knowledge distillation are common methods used in model compression.",
+          "zh": "剪枝、量化和知识蒸馏是模型压缩中常用的方法。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "anomaly detection",
+      "phonetic": "/əˈnɒməli dɪˈtɛkʃən/",
+      "partOfSpeech": "noun phrase",
+      "definition": {
+        "en": "The identification of items, events or observations which do not conform to an expected pattern or other items in a dataset.",
+        "zh": "识别不符合预期模式或数据集中其他项目的项目、事件或观察。"
+      },
+      "examples": [
+        {
+          "en": "Anomaly detection is used in fraud detection to identify unusual transactions.",
+          "zh": "异常检测用于欺诈检测以识别异常交易。"
+        },
+        {
+          "en": "In network security, anomaly detection can alert to potential intrusions.",
+          "zh": "在网络安全中，异常检测可以警示潜在的入侵。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "latent Dirichlet allocation",
+      "phonetic": "/ˈleɪtənt dɪˈraɪklət əˌləˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A generative statistical model often used in natural language processing for topic modeling.",
+        "zh": "一种常用于自然语言处理中的主题建模的生成统计模型。"
+      },
+      "examples": [
+        {
+          "en": "LDA was applied to extract hidden topics from a collection of documents.",
+          "zh": "LDA被应用于从一系列文档中提取隐藏的主题。"
+        },
+        {
+          "en": "Using latent Dirichlet allocation, we can discover underlying themes in text corpora.",
+          "zh": "使用潜在狄利克雷分配，我们可以发现文本语料库中的潜在主题。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "Adversarial Networks",
+      "phonetic": "/ædˈvɜːsərɪəl ˈnɛtwɜːks/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A framework in which two neural networks, called the generator and discriminator, contest with each other in a game.",
+        "zh": "一个由两个神经网络（称为生成器和判别器）彼此对抗的框架。"
+      },
+      "examples": [
+        {
+          "en": "Adversarial Networks are used in generating new, synthetic instances of data that can pass for real data.",
+          "zh": "对抗网络用于生成新的合成数据实例，这些数据可以被视为真实数据。"
+        },
+        {
+          "en": "GANs, a type of adversarial networks, have been used to create realistic images from noise.",
+          "zh": "GANs，一种对抗网络，用于从噪声中生成逼真的图像。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "Hyperparameter Optimization",
+      "phonetic": "/ˌhaɪpəˈpærəmɪtər ˌɒptɪmaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "The process of finding the best configuration for a machine learning model's hyperparameters to improve performance.",
+        "zh": "寻找机器学习模型超参数的最佳配置以提高性能的过程。"
+      },
+      "examples": [
+        {
+          "en": "Hyperparameter optimization often involves techniques like grid search, random search, or Bayesian optimization.",
+          "zh": "超参数优化通常涉及网格搜索、随机搜索或贝叶斯优化等技术。"
+        },
+        {
+          "en": "AutoML tools automate the process of hyperparameter optimization for various algorithms.",
+          "zh": "AutoML工具自动化了各种算法的超参数优化过程。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "Neural Architecture Search",
+      "phonetic": "/ˈnʊərəl ˌɑːrkɪˈtɛktʃər sɜːtʃ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "An approach in deep learning where the model architecture is automatically designed by an optimization process.",
+        "zh": "在深度学习中，模型架构通过优化过程自动设计的方法。"
+      },
+      "examples": [
+        {
+          "en": "Neural Architecture Search has led to the discovery of novel neural network designs.",
+          "zh": "神经架构搜索导致了新型神经网络设计的发现。"
+        },
+        {
+          "en": "Companies like Google and NVIDIA are investing in NAS to automate model design.",
+          "zh": "像谷歌和英伟达这样的公司正在投资NAS以自动化模型设计。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "ensemble methods",
+      "phonetic": "/ɪnˈsɛmbəl ˈmɛθədz/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "Techniques that create multiple models and then combine them to produce better predictive performance than could be obtained from any of the constituent models alone.",
+        "zh": "创建多个模型并将它们结合起来以产生比单个模型更好的预测性能的技术。"
+      },
+      "examples": [
+        {
+          "en": "Random Forests is an example of an ensemble method where multiple decision trees are used.",
+          "zh": "随机森林是集成方法的一个例子，其中使用了多个决策树。"
+        },
+        {
+          "en": "Ensemble methods like boosting can improve the accuracy of weak classifiers.",
+          "zh": "像提升这样的集成方法可以提高弱分类器的准确性。"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "word": "Generative Adversarial Networks",
+      "phonetic": "/ˈdʒɛnərətɪv ˌædˈvɛrsərɪəl ˈnɛtwɜːks/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A class of machine learning frameworks designed by a system of two neural networks contesting with each other to generate new, synthetic instances of data.",
+        "zh": "一种机器学习框架，由两个互相竞争的神经网络组成，设计用来生成新的、合成的数据实例。"
+      },
+      "examples": [
+        {
+          "en": "GANs can create realistic images that are indistinguishable from real photographs.",
+          "zh": "生成对抗网络可以创造出与真实照片无法区分的逼真图像。"
+        },
+        {
+          "en": "GANs are used in applications like style transfer and image-to-image translation.",
+          "zh": "GANs在风格转换和图像到图像转换等应用中被使用。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "Bias-Variance Tradeoff",
+      "phonetic": "/ˈbaɪəs ˈvɛərɪəns ˈtreɪdˌɔːf/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "The balance between a model's ability to fit the training data (low bias) and its ability to generalize to new data (low variance).",
+        "zh": "模型对训练数据的拟合能力（低偏差）与对新数据的泛化能力（低方差）之间的平衡。"
+      },
+      "examples": [
+        {
+          "en": "A high bias model might underfit the data, while a high variance model might overfit.",
+          "zh": "高偏差模型可能会欠拟合数据，而高方差模型可能会过拟合。"
+        },
+        {
+          "en": "Understanding the bias-variance tradeoff is essential for model selection in machine learning.",
+          "zh": "理解偏差-方差权衡对于机器学习中的模型选择至关重要。"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "word": "adversarial training",
+      "phonetic": "/ædˈvɜː.sər.i.əl ˈtreɪ.nɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": {
+        "en": "A training method where the model is exposed to adversarial examples to improve its robustness.",
+        "zh": "一种训练方法，通过暴露模型于对抗性示例来提高其鲁棒性。"
+      },
+      "examples": [
+        {
+          "en": "Adversarial training helps models resist attacks that aim to fool them.",
+          "zh": "对抗性训练帮助模型抵抗旨在欺骗它们的攻击。"
+        },
+        {
+          "en": "The team implemented adversarial training to make their AI system more secure.",
+          "zh": "团队实施了对抗性训练以使他们的AI系统更加安全。"
+        }
+      ],
+      "difficulty": "advanced"
+    }
+  ]
+}
